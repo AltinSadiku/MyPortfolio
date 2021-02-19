@@ -1,0 +1,28 @@
+
+<section>
+  <div class="container">
+    <div class="row"> 
+      <div class="col-sm-5">
+        <div class="p-profile"></div>
+      </div>
+      <div *ngFor="let profile of abouts" class="col-sm-7 p-rgt-sec">
+        <div>
+        <span  class="p-tag">{{profile.title}}</span>
+        <h1 class="mt-4">{{profile.name}}</h1>
+       
+        <p class="p-des mt-3 mb-4">{{profile.description}}.</p>
+         <a href="#" class="p-readmore">Read More <img src="assets/images/rgh-arrow.png" alt="The icon for right arrow" width="15" class="ml-2"></a>
+       </div>
+          <div>
+            <h6>Subscribe</h6>
+            <form class="form-inline" autocomplete="off">
+              <div class="form-group row">
+                  <input type="email" class="form-control" id="colFormLabelSm" placeholder="Enter your email here">
+                  <button class="btn btn-warning">Subscribe</button>
+                </div>
+          </form>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>

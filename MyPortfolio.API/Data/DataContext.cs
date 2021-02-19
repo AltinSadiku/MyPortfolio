@@ -8,6 +8,8 @@ namespace MyPortfolio.API.Data
         public DataContext(DbContextOptions<DataContext> options) : base(options){}
 
         public DbSet<About> Abouts {get; set;}
+
+        public DbSet<Project> Projects { get; set;}
         
         
     }
