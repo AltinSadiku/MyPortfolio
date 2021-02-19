@@ -10,14 +10,16 @@ import { ProjectComponent } from './project/project.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { appRoutes } from './routes';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
-  declarations: [				
+  declarations: [					
     AppComponent,
       ProfileComponent,
       ProjectComponent,
       HeaderComponent,
-      HomeComponent
+      HomeComponent,
+      ContactComponent
    ],
   imports: [
     BrowserModule,
